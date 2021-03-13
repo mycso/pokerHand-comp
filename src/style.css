@@ -1,0 +1,45 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.playerInput {
+    padding: 20px;
+}
+
+.result {
+    margin: auto;
+    margin-top: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#message {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#submit-btn{
+    text-align: center;
+    margin: 0 auto;
+}

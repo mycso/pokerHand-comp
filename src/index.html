@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>&spades; <span class="red">&hearts;</span> &clubs; <span class="red">&diams;</span></h1>
+        <h1>Poker Hand Comparison</h1>
+        <div class="inputContainer">
+            <div class="playerInput">
+                <label for="playerOneInput">Player 1</label>
+                <div>
+                    <input placeholder="E.g. Full House" type="text" id="player1">
+                </div>
+                <div class="result" id="playerResult"></div>
+            </div>
+            <div class="playerInput">
+                <label for="opponentInput">Player 2</label>  
+                <div>  
+                    <input placeholder="E.g. Royal Flush" type="text" id="player2">  
+                </div>              
+                <div class="result" id="oppoResult"></div>   
+            </div>                      
+        </div>
+        <button class="btn btn-danger w-25" type="submit" id="submit-btn">Play Hand!</button>    
+            <div class="alert alert-dismissible alert-danger px-4" id="message">Please input your poker hands in the text fields above</div> 
+    </div>  
+        
+      
+        
+   
+    <script src="PokerHand.js"></script>
+            
+</body>
+</html>
